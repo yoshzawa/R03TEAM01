@@ -10,7 +10,7 @@ namespace TEAM01
         {
             InitializeComponent();
 
-            MainPage = new TabbedPage();
+            MainPage = new page.TabbedPage();
         }
 
         protected override void OnStart()
