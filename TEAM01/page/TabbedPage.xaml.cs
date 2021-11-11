@@ -16,5 +16,10 @@ namespace TEAM01.page
         {
             InitializeComponent();
         }
+
+        public static implicit operator Page(TabbedPage v)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
