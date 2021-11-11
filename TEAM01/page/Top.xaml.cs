@@ -10,16 +10,11 @@ using Xamarin.Forms.Xaml;
 namespace TEAM01.page
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class TabbedPage : TabbedPage
+    public partial class Top : TabbedPage
     {
-        public TabbedPage()
+        public Top()
         {
             InitializeComponent();
-        }
-
-        public static implicit operator Page(TabbedPage v)
-        {
-            throw new NotImplementedException();
         }
     }
 }

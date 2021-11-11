@@ -10,7 +10,7 @@ namespace TEAM01
         {
             InitializeComponent();
 
-            page.TabbedPage tabbedPage = new page.TabbedPage();
+            page.Top tabbedPage = new page.Top();
             MainPage = tabbedPage;
         }
 
